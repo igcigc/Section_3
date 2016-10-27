@@ -9,4 +9,5 @@ for(i=0; i<12; i++)
     printf("On the %s of christmas, my true love gave me to me: ", days[i]);
     for (int i2 = 0; i2 < i+1; i2++)
       printf("%s", phrases[i2]);
+    system("pause");
 }
