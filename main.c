@@ -4,5 +4,7 @@ while(1)
   i++;
   printf("This is how many shits i give about this code: 0); 
   printf("printed %d times", i);
+  printf("Zeid was here\n");
+  system("pause");
 
 }
