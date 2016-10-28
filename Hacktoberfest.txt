@@ -1,1 +1,13 @@
-I want a f*****g t-shirt!!!
+//I want a f*****g t-shirt!!!
+
+#include<stdio.h>
+
+int main(void){
+
+int angryface=0;
+
+printf("What he's trying to say is WE ALL WANT F****** SHIRTS \n");
+system("pause");
+return angryface;
+
+}
