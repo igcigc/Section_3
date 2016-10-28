@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void)
+{
+    
+    char days[12][5] = { "1st" } { "2nd" } { "3rd" } { "4th" } { "5th" } { "6th" } { "7th" } { "8th" } { "9th" } { "10th" } { "11th" } { "12th" };
+    char phrase[12][100] = { "A Partridge in a Pear Tree!" } { "2 Turtle Doves" } { "3 French Hens" } { "4 Calling Birds" } { "5 Golden Rings" } { "6 Geese-A-Laying" } { "7 Swans-A-Swimming" } { "8 Maids-A-Milking" } { "9 Ladies Dancing" } { "10 Lords-A-Leaping" } { "11 Pipers Piping" } { "12 Drummers Drumming" };
+
+    for(i=0; i<12; i++)
+    {
+        printf("On the %s of christmas, my true love gave me to me: ", days[i]);
+        for (int i2 = 0; i2 < i+1; i2++)
+            printf("%s", phrases[i2]);
+        system("pause");
+        
+        printf("\n\n HOHOHOHO MERRRYYYY CHRISTMAS TO ALL OF YOU!\n");
+    }
+}
